@@ -3,10 +3,7 @@
 //
 
 #include "CTree.h"
-#include <string>
-#include <cstring>
 #include <iostream>
-#include <regex>
 
 
 ImmutableCTree::ImmutableCTree(std::string children, std::string line, ImmutableCTree* parent)
@@ -17,6 +14,8 @@ ImmutableCTree::ImmutableCTree(std::string children, std::string line, Immutable
 }
 
 ImmutableCTree::ImmutableCTree() {}
+
+std::string
 
 int ImmutableCTree::_setChildren(std::string children)
 {

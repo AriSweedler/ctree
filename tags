@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CATCH_CONFIG_MAIN	tests.cpp	/^#define CATCH_CONFIG_MAIN$/;"	d	file:
+CTREE_CTREE_H	CTree.h	/^#define CTREE_CTREE_H$/;"	d
+CTree	CTree.cpp	/^CTree::CTree() : ImmutableCTree() {}$/;"	f	class:CTree
+CTree	CTree.cpp	/^CTree::CTree(std::string children, std::string line, ImmutableCTree* parent) : ImmutableCTree(children, line, parent) {}$/;"	f	class:CTree
+CTree	CTree.h	/^class CTree : public ImmutableCTree {$/;"	c
+ImmutableCTree	CTree.cpp	/^ImmutableCTree::ImmutableCTree() {}$/;"	f	class:ImmutableCTree
+ImmutableCTree	CTree.cpp	/^ImmutableCTree::ImmutableCTree(std::string children, std::string line, ImmutableCTree* parent)$/;"	f	class:ImmutableCTree
+ImmutableCTree	CTree.h	/^class ImmutableCTree {$/;"	c
+_children	CTree.h	/^    std::vector<ImmutableCTree*> _children;$/;"	m	class:ImmutableCTree
+_childrenToString	CTree.cpp	/^std::string ImmutableCTree::_childrenToString(int indentCount) {$/;"	f	class:ImmutableCTree
+_createNode	CTree.cpp	/^ImmutableCTree * ImmutableCTree::_createNode(std::string line) {$/;"	f	class:ImmutableCTree
+_getIndentCount	CTree.cpp	/^int ImmutableCTree::_getIndentCount(std::string str) {$/;"	f	class:ImmutableCTree
+_getIndex	CTree.cpp	/^std::map<std::string, int> ImmutableCTree::_getIndex() {$/;"	f	class:ImmutableCTree
+_getNodeByPath	CTree.cpp	/^ImmutableCTree * ImmutableCTree::_getNodeByPath(std::string keywordPath) {$/;"	f	class:ImmutableCTree
+_hasIndex	CTree.h	/^    bool _hasIndex = false;$/;"	m	class:ImmutableCTree
+_index	CTree.h	/^    std::map<std::string, int> _index;$/;"	m	class:ImmutableCTree
+_line	CTree.h	/^    std::string _line;$/;"	m	class:ImmutableCTree
+_makeIndex	CTree.cpp	/^void ImmutableCTree::_makeIndex() {$/;"	f	class:ImmutableCTree
+_parent	CTree.h	/^    ImmutableCTree* _parent;$/;"	m	class:ImmutableCTree
+_parseString	CTree.cpp	/^void ImmutableCTree::_parseString(std::string str) {$/;"	f	class:ImmutableCTree
+_setChildren	CTree.cpp	/^int ImmutableCTree::_setChildren(std::string children)$/;"	f	class:ImmutableCTree
+_setLine	CTree.cpp	/^void ImmutableCTree::_setLine(std::string line)$/;"	f	class:ImmutableCTree
+_setParent	CTree.cpp	/^void ImmutableCTree::_setParent(ImmutableCTree* parent)$/;"	f	class:ImmutableCTree
+get	CTree.cpp	/^std::string ImmutableCTree::get(std::string query){$/;"	f	class:ImmutableCTree
+getContent	CTree.cpp	/^std::string ImmutableCTree::getContent(){$/;"	f	class:ImmutableCTree
+getKeyword	CTree.cpp	/^std::string ImmutableCTree::getKeyword(){$/;"	f	class:ImmutableCTree
+getLength	CTree.cpp	/^int ImmutableCTree::getLength()$/;"	f	class:ImmutableCTree
+getLine	CTree.cpp	/^std::string ImmutableCTree::getLine(){$/;"	f	class:ImmutableCTree
+getNode	CTree.cpp	/^ImmutableCTree * ImmutableCTree::getNode(std::string keywordPath){$/;"	f	class:ImmutableCTree
+getParent	CTree.cpp	/^ImmutableCTree * ImmutableCTree::getParent(){$/;"	f	class:ImmutableCTree
+getYIRegex	CTree.cpp	/^std::regex ImmutableCTree::getYIRegex() {$/;"	f	class:ImmutableCTree
+indexOfLast	CTree.cpp	/^int ImmutableCTree::indexOfLast(std::string keyword) {$/;"	f	class:ImmutableCTree
+isRoot	CTree.cpp	/^bool ImmutableCTree::isRoot()$/;"	f	class:ImmutableCTree
+main	main.cpp	/^int main() {$/;"	f
+nodeAt	CTree.cpp	/^ImmutableCTree * ImmutableCTree::nodeAt(int index){$/;"	f	class:ImmutableCTree
+setLine	CTree.cpp	/^CTree& CTree::setLine(std::string line) {$/;"	f	class:CTree
+toString	CTree.cpp	/^std::string ImmutableCTree::toString(int indentCount)$/;"	f	class:ImmutableCTree

@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 3.13)
-project(ctree)
+cmake_minimum_required(VERSION 3.20)
+project(ctree VERSION 0.1 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ctree main.cpp CTree.cpp CTree.h)
-add_executable(tests CTree.cpp CTree.h catch.hpp tests.cpp)
+add_subdirectory(src)
+add_subdirectory(test)
